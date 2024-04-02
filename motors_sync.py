@@ -5,7 +5,7 @@ import numpy as np
 import time
 from scipy.signal import medfilt
 
-magnitude_threshold = 10000 # Adjust to speed up the process. 
+magnitude_threshold = 100000 # Adjust to speed up the process. 
 time_delay_for_first_measurement = 25 #Time needed to home X and Y and make first measurement.
 time_delay_between_measurements = 12 
 
